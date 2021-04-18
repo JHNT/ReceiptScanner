@@ -70,7 +70,6 @@ class ReceiptScanner:
                     continue
 
                 # Check if block is amount of a product
-                # TODO: Add Regex check for prices
                 if ("Stk" in block_text or "kg" in block_text) and first_product:
                     # Check if this is a price / kg block
                     if "EUR/kg" in block_text:
