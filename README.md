@@ -6,4 +6,3 @@ It provides a function that takes an image as input and returns a list of produc
 
 The class "ReceiptScanner2" uses the image_to_boxes function of pytesseract.
 image_to_boxes returns a list of recognized characters with x and y coordinates.
-"# ReceiptScanner" 
